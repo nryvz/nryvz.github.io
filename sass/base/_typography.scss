@@ -1,0 +1,43 @@
+$degular-font-path: "font/Degular/DegularVariable.woff2";
+
+@font-face {
+    src: url("#{degular-font-path}") format("woff2");
+
+    font-family: "Degular";
+}
+
+
+h3 {
+    color: black;
+    font-family: 'Degular','sans-serif';
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.p1 {
+    color: black;
+    font-family: 'Degular','sans-serif';
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+h4 {
+    color: black;
+    font-family: 'Degular','sans-serif';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.p2 {
+    color: black;
+    font-family: 'Degular','sans-serif';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

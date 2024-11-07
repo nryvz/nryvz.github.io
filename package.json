@@ -1,0 +1,15 @@
+{
+  "name": "nryvzgithub",
+  "version": "1.0.0",
+  "description": "personal site",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass main.scss style.css -w"
+  },
+  "author": "nuriye yavuz",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.2.0",
+    "sass": "^1.80.6"
+  }
+}

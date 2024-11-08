@@ -1,8 +1,6 @@
-$degular-font-path: "font/Degular/DegularVariable.woff2";
 
 @font-face {
-    src: url("#{degular-font-path}") format("woff2");
-
+    src: url("/font/Degular/DegularVariable.woff2") format("woff2");
     font-family: "Degular";
 }
 
@@ -12,6 +10,11 @@ h3 {
     font-family: 'Degular','sans-serif';
     font-size: 23px;
     font-weight: 600;
+
+    
+    @media only screen and (max-width: 480px) {
+        font-size: 20px;
+    }
 }
 
 .p1 {
@@ -22,6 +25,11 @@ h3 {
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0.2px;
+
+      
+    @media only screen and (max-width: 480px) {
+        font-size: 18px;
+    }
 }
 
 h4 {
@@ -31,6 +39,10 @@ h4 {
     font-style: normal;
     font-weight: 600;
     line-height: 24px;
+
+    @media only screen and (max-width: 480px) {
+        font-size: 18px;
+    }
 }
 
 .p2 {
@@ -41,3 +53,4 @@ h4 {
     font-weight: 400;
     line-height: normal;
 }
+

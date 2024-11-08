@@ -8,6 +8,7 @@
     background: rgba(248, 248, 248, 0.70);
     backdrop-filter: blur(10px);
 
+
     .navigation {
         width: 900px;
         display: flex;
@@ -18,9 +19,9 @@
             width: 740px;
          }
 
-        @media only screen and (max-width: 480px) {
-            width: 430px;
-         }
+        @media only screen and (max-width: 430px) {
+            width: 404px;
+        }
     }
 
     .logo {
@@ -56,11 +57,16 @@
         @media only screen and (max-width: 780px) {
             gap: 4px;
          }
+    }
 
-        @media only screen and (max-width: 480px) {
-            width: 160px;
-            gap:0;
-         }
+    .icon-img{
+        width: 32px;
+        height: 32px;
+
+        @media only screen and (max-width: 430px) {
+            width: 28px;
+            height: 28px;
+        }
     }
 
     a {

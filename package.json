@@ -1,0 +1,21 @@
+{
+  "homepage":"https://nryvz.github.io/nryvz.github.io",
+  "name": "nuriyeyavuz.com",
+  "version": "1.0.0",
+  "description": "Nuriye Yavuz",
+  "main": "index.html",
+  "scripts": {
+    "compile:sass": "sass main.scss style.css -w",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build"
+  },
+  "keywords": [
+    "frontend-developper"
+  ],
+  "author": "nuriye yavuz",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^6.2.0",
+    "sass": "^1.81.0"
+  }
+}

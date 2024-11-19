@@ -88,6 +88,11 @@ h4 {
     width: 390px;
   }
 }
+@media only screen and (max-width: 390px) {
+  .header .navigation {
+    width: 360px;
+  }
+}
 .header .logo {
   height: 36px;
   display: flex;
@@ -228,6 +233,15 @@ h4 {
     gap: 20px;
   }
 }
+@media only screen and (max-width: 390px) {
+  .main .main-container {
+    width: 414px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+}
 .main .left {
   display: flex;
   flex-direction: column;
@@ -308,6 +322,11 @@ h4 {
   flex-basis: 75%;
   gap: 40px;
 }
+@media only screen and (max-width: 390px) {
+  .main .right {
+    align-items: center;
+  }
+}
 .main .right .carrier {
   width: 100%;
   height: auto;
@@ -324,6 +343,12 @@ h4 {
 @media only screen and (max-width: 430px) {
   .main .right .carrier {
     width: 390px;
+    padding: 15px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .main .right .carrier {
+    width: 360px;
     padding: 15px;
   }
 }
@@ -389,6 +414,12 @@ h4 {
     gap: 15px;
   }
 }
+@media only screen and (max-width: 390px) {
+  .main .right .project {
+    width: 360px;
+    gap: 15px;
+  }
+}
 .main .right .project-desc {
   margin-top: -10px;
 }
@@ -411,6 +442,15 @@ h4 {
 @media only screen and (max-width: 430px) {
   .main .right .project-card {
     width: 390px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .main .right .project-card {
+    width: 360px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -477,6 +517,11 @@ h4 {
     width: 390px;
   }
 }
+@media only screen and (max-width: 390px) {
+  .main .right .skill {
+    width: 360px;
+  }
+}
 .main .right .skills {
   display: flex;
   flex-wrap: wrap;
@@ -518,6 +563,11 @@ h4 {
 @media only screen and (max-width: 430px) {
   .main .right .course {
     width: 390px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .main .right .course {
+    width: 360px;
   }
 }
 .main .right .udemy {

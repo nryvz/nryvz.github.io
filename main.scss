@@ -88,6 +88,10 @@
          @media only screen and (max-width: 430px) {
              width: 390px;
          }
+
+         @media only screen and (max-width: 390px) {
+            width: 360px;
+        }
      }
 
      .logo {
@@ -243,6 +247,14 @@
              gap: 20px;
          }
 
+         @media only screen and (max-width: 390px) {
+            width: 414px;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            gap: 20px;
+        }
+
      }
 
      .left {
@@ -329,6 +341,10 @@
          flex-basis: 75%;
          gap: 40px;
 
+         @media only screen and (max-width: 390px) {
+            align-items: center;
+        }
+
          .carrier {
              width: 100%;
              height: auto;
@@ -345,6 +361,11 @@
                  width: 390px;
                  padding: 15px;
              }
+
+             @media only screen and (max-width: 390px) {
+                width: 360px;
+                padding: 15px;
+            }
 
          }
 
@@ -413,6 +434,11 @@
                  width: 390px;
                  gap: 15px;
              }
+
+             @media only screen and (max-width: 390px) {
+                width: 360px;
+                gap: 15px;
+            }
          }
 
          .project-desc {
@@ -442,6 +468,14 @@
                  align-items: flex-start;
                  gap: 10px;
              }
+
+             @media only screen and (max-width: 430px) {
+                width: 360px;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                gap: 10px;
+            }
 
          }
 
@@ -510,6 +544,10 @@
              @media only screen and (max-width: 430px) {
                  width: 390px;
              }
+
+             @media only screen and (max-width: 390px) {
+                width: 360px;
+            }
          }
 
          .skills {
@@ -556,6 +594,10 @@
              @media only screen and (max-width: 430px) {
                  width: 390px;
              }
+
+             @media only screen and (max-width: 390px) {
+                width: 360px;
+            }
          }
 
          .udemy {

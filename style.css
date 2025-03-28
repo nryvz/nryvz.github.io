@@ -110,7 +110,16 @@ h4 {
   align-items: flex-start;
   justify-content: center;
 }
+
+ .ny_logo {
+    width: 40px;
+    height: 40px;
+  }
+
 .header .name {
+  display: flex;
+    align-items: center;
+    justify-content: center;
   color: black;
   font-family: "Degular", "sans-serif";
   font-size: 25px;

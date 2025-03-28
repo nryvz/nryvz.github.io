@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: 1px solid red;
 }
 
 body {
@@ -579,6 +580,11 @@ h4 {
 @media only screen and (max-width: 430px) {
   .main .right .project-card-title {
     width: 350px;
+  }
+}
+@media only screen and (max-width: 390px) {
+  .main .right .project-card-title {
+    width: 331px;
   }
 }
 .main .right .project-card-desc {

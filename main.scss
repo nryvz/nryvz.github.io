@@ -593,8 +593,11 @@
 
              @media only screen and (max-width: 430px) {
                  width: 350px;
-
              }
+
+             @media only screen and (max-width: 390px) {
+                width: 331px;
+            }
          }
 
          .project-card-desc {
